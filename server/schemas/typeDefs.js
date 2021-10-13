@@ -14,8 +14,8 @@ const typeDefs = gql`
     description: String
     authors: String
     title: String
-    image: Int
-    link: [Reaction]
+    image: String
+    link: String
   }
 
   input savedBook {
